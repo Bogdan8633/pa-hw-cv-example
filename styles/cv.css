@@ -99,3 +99,46 @@ header {
 .nav-links:hover {
   color: var(--accent-color);
 }
+
+.hero-section {
+  margin-bottom: 134px;
+}
+
+.greeting {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50.753px; /* 158.604% */
+}
+
+.greeting-span {
+  color: var(--accent-color);
+  text-decoration-line: underline;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--primary-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 90.85px; /* 189.271% */
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.my-services {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50.753px; /* 211.472% */
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.avatar {
+  text-align: center;
+  margin: 0 auto;
+}
