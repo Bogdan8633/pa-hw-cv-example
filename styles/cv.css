@@ -10,10 +10,15 @@
 
   --accent-color: #ffb742;
   --not-accent-color: #d4d4d4;
+  --hover-background-color: rgba(255, 183, 66, 0.5);
 
   --primary-font-family: "Inter", sans-serif;
   --secondary-font-family: "Poppins", sans-serif;
   --thrid-font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 button {
@@ -45,11 +50,27 @@ button {
   cursor: pointer;
 }
 
+header {
+  padding: 40px 0px 40px 0px;
+}
+
 .big-wrapper {
   /* max-width: 1340px; */
   width: 93%;
-  background-color: #fff;
   margin: 0 auto;
+}
+
+.be-flex {
+  display: flex;
+  align-items: center;
+}
+
+.big-wrapper.be-flex {
+  justify-content: space-between;
+}
+
+.be-flex ul {
+  gap: 25px;
 }
 
 .hire-btn {
@@ -57,4 +78,23 @@ button {
   padding: 12px 26px;
   border-radius: 50px;
   border: 2px solid var(--accent-color);
+}
+
+.hire-btn:hover {
+  background-color: var(--hover-background-color);
+  color: white;
+  border: 2px solid transparent;
+}
+
+.nav-links {
+  color: #fff;
+  font-family: var(--secondary-font-family);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.nav-links:hover {
+  color: var(--accent-color);
 }
