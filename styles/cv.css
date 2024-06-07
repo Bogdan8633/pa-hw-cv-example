@@ -426,3 +426,166 @@ h2 {
 .column-thumb img {
   border-radius: 5px;
 }
+
+.testemonials-section {
+  margin-bottom: 253px;
+}
+
+.testemonials-header-thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.testemonials-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.testemonials-item {
+  /* width: 25%; */
+
+  color: #000;
+  font-family: var(--secondary-font-family);
+
+  background-color: var(--light-font-color);
+  padding: 50px 52px 50px 33px;
+}
+
+@media screen and (max-width: 1240px) {
+  .testemonials-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+.stars-list {
+  display: flex;
+  gap: 10px;
+  color: gold;
+
+  margin-bottom: 21px;
+}
+
+.testemonial-text {
+  max-width: 294px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+
+  margin-bottom: 36px;
+}
+
+.user-data {
+  display: flex;
+}
+
+.user-data img {
+  margin-right: 24px;
+}
+
+.user-info {
+  gap: 24px;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px; /* 170% */
+}
+
+.user-profession {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 34px; /* 212.5% */
+}
+
+footer {
+  background-color: #1c1c1c;
+  padding: 148px 0px 90px 0px;
+
+  font-family: var(--secondary-font-family);
+}
+
+.top-flex-position {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px) {
+  .top-flex-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 45px;
+  }
+}
+
+.me-in-footer {
+  color: var(--accent-color);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%; /* 32px */
+
+  margin-bottom: 30px;
+}
+
+.my-profession {
+  color: var(--not-accent-color);
+  font-weight: 600;
+  line-height: 32.38px; /* 202.374% */
+
+  max-width: 254px;
+}
+
+@media screen and (max-width: 720px) {
+  .me-in-footer {
+    text-align: center;
+  }
+
+  .my-profession {
+    text-align: center;
+  }
+}
+
+h5 {
+  color: #f5fbf2;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 31.887px; /* 147.717% */
+
+  margin-bottom: 20px;
+}
+
+.links-item a {
+  color: #7b7b7b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.links-item a:hover {
+  color: var(--accent-color);
+}
+
+.feedback {
+  color: #7b7b7b;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 36.422px; /* 202.469% */
+
+  max-width: 320px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer-links-container {
+    text-align: center;
+  }
+}
