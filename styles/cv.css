@@ -71,9 +71,6 @@ header {
     flex-direction: column;
     gap: 30px;
   }
-  .logo {
-    align-self: flex-start;
-  }
 
   nav {
     padding: 30px 0px 30px 0px;
@@ -410,6 +407,14 @@ h2 {
   justify-content: space-around;
 }
 
+@media screen and (max-width: 720px) {
+  .images-thumb {
+    flex-direction: column;
+    width: 100%;
+    gap: 28px;
+  }
+}
+
 .column-thumb {
   display: flex;
   row-gap: 28px;
@@ -446,13 +451,17 @@ h2 {
 }
 
 .testemonials-item {
-  /* width: 25%; */
-
   color: #000;
   font-family: var(--secondary-font-family);
 
   background-color: var(--light-font-color);
   padding: 50px 52px 50px 33px;
+}
+
+@media screen and (min-width: 1240px) {
+  .testemonials-item {
+    width: 25%;
+  }
 }
 
 @media screen and (max-width: 1240px) {
